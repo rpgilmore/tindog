@@ -1,0 +1,181 @@
+body {
+    font-family: 'Montserrat-Light', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;   
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/*General Styling*/
+
+.biggest-heading{
+    line-height: 1.5;
+    font-size: 4rem;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+.container-fluid {
+    font-family: 'Montserrat', sans-serif;
+    padding: 7% 15%;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    font-family: 'Arial'
+}
+
+/*Navbar*/
+
+.navbar {
+    padding:0 0 4.5rem;
+}
+.navbar-brand {
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    font-family: 'Montserrat-Light';
+    padding: 0 18px;
+    text-align: left;
+}
+
+
+
+/*Title Section*/
+
+#title .container-fluid{
+    text-align: left;
+    padding: 3% 15% 7%;
+}
+
+.dog_profile {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+
+/*Features Section*/
+
+#features{
+    position: relative;
+}
+
+.feature-box {
+    line-height: 2;
+    padding: 5%;    
+}
+
+.feature-heading {
+    font-size: 1.5rem;    
+}
+
+.fIcon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.fIcon:hover {
+    color: #ff4c68;
+}
+
+/*Testimonials Section*/
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*Press Section*/
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/*Pricing Section*/
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-heading{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.pricing-name {
+    font-size: 1.5rem;
+}
+
+/*Thought it was best to keep class separate from pricing-heading
+  for future style changes*/
+.card-price { 
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.pricing-card{
+    padding: 3% 2%;
+}
+
+
+/*Footer*/
+
+#footer .container-fluid {
+    padding: 3% 15%;
+}
+
+.foot-icon {
+    margin: 20px 10px;
+}
+
+/*For tablets and mobile*/
+@media (max-width: 1199px){
+    #title .container-fluid {
+        text-align: center;
+    }
+    .dog_profile {
+        width: 40%;
+        position: static;
+        transform: rotate(0);
+    }
+    .title-col{
+        max-width: 100%;
+        flex: none;
+    }
+}
+
+
